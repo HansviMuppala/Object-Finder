@@ -1,0 +1,35 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    font-family: Playfair Display;
+    
+}
+
+span{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+#object_name_input{
+    width: 18%;
+    background-color: cadetblue;
+    border-color: cadetblue;
+    border-radius: 20px;
+    color: royalblue;
+}
+
+button{
+    width: 75px;
+}
+
+canvas{
+    background-color: darkseagreen;
+    border-color: mediumspringgreen;
+    box-shadow: 7px 7px 7px solid lightgreen;
+    border-radius: 25px;
+}

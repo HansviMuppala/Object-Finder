@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Object Finder App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    </head>
+    <body background="gradient.jpg">
+        <center>
+            <h1 class="btn btn-warning heading">Object Finder
+                <br>
+                <span>The name of the object of which you will give has to match the ones in the CoCoSSD model for it to work.</span>
+            </h1>
+            <br>
+            <br>
+            <input type="text" id="object_name_input" placeholder="Name of Object">
+            <br>
+            <br>
+            <button id="start" class="btn btn-success" onclick="start()">Start</button>
+            <br>
+            <br>
+            <span><h3 class="btn btn-warning" id="status_of_model"></h3> <h3 class="btn btn-info" id="status_of_object"></h3></span>
+        </center>
+    </body>
+</html>
